@@ -1,3 +1,9 @@
+.button-container {
+    position: relative; /* Position relative to contain the absolute positioning of button and text */
+    display: inline-block; /* Inline block to keep the elements together */
+    margin-right: 20px; /* Optional: Add margin to separate from other elements */
+}
+
 .button {
     width: 46px; /* Match the width of the profile picture */
     height: 18px; /* Match the height of the profile picture */
@@ -9,10 +15,8 @@
     border: none; /* Remove default button border */
     outline: none; /* Remove default focus outline */
     border-radius: 50%; /* Make the button round */
-    position: absolute; /* Position absolutely within its container */
+    position: relative; /* Position relative within the container */
     z-index: 1; /* Place the button above other elements */
-    top: 30px; /* Adjust top position to match the profile picture */
-    right: 140px; /* Adjust right position to match the profile picture */
 }
 
 .button-text {
@@ -20,4 +24,15 @@
     font-size: 10px; /* Font size */
     font-weight: normal; /* Font weight */
     font-family: 'Lexend Deca', sans-serif; /* Font family */
+    
+}
+
+.button-info {
+    color: #222222; /* Text color */
+    font-size: 20px; /* Font size */
+    font-weight: 500; /* Font weight */
+    font-family: 'Lexend Deca', sans-serif; /* Font family */
+    margin-top: 2px; /* Space between button and info text */
+    text-align: center; /* Center text */
+    margin-right: 70px;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import notification from '../notification/notification.svg';
-import profile from '../profile/profile.png';
-import Button from '../profile/Button';
+import notificationIcon from '../notification/notification.svg';
+import profileIcon from '../profile/profile.png';
+import Button from '../profile/Button'; // Adjust path as needed
 
 function Header() {
     return (
@@ -12,16 +12,18 @@ function Header() {
                 <ul className="nav-list">
                     <li>
                         <a href="/notification">
-                            <img src={notification} alt="Notification" className="notification-picture" />
+                            <img src={notificationIcon} alt="Notification" className="notification-picture" />
                         </a>
                         <a href="/profile">
-                            <img src={profile} alt="Profile" className="profile-picture" />
+                            <img src={profileIcon} alt="Profile" className="profile-picture" />
                         </a>
-                        <Button User="User" />
+                        <div className="button-container">
+                            <Button User="User" />
+                            <div className="button-info">Sana Alex</div>
+                        </div>
                     </li>
                 </ul>
             </nav>
-
         </header>
     );
 }
