@@ -1,0 +1,23 @@
+.button {
+    width: 46px; /* Match the width of the profile picture */
+    height: 18px; /* Match the height of the profile picture */
+    background-color: #FFF9F1; /* Background color */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer;
+    border: none; /* Remove default button border */
+    outline: none; /* Remove default focus outline */
+    border-radius: 50%; /* Make the button round */
+    position: absolute; /* Position absolutely within its container */
+    z-index: 1; /* Place the button above other elements */
+    top: 30px; /* Adjust top position to match the profile picture */
+    right: 140px; /* Adjust right position to match the profile picture */
+}
+
+.button-text {
+    color: #19342F; /* Text color */
+    font-size: 10px; /* Font size */
+    font-weight: normal; /* Font weight */
+    font-family: 'Lexend Deca', sans-serif; /* Font family */
+}

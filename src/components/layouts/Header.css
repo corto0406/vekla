@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+.header {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; /* Smaller height for the header */
+  width: calc(100% - 250px); /* Adjust width to account for sidebar */
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.topic {
+    color: #19342F;
+    font-size: 40px; /* Use 40px font size */
+    font-weight: 500; /* Medium weight */
+    font-family: 'Lexend Deca', sans-serif; /* Use Lexend Deca font */
+    margin-left: 40px;
+    height: 24px;
+  }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul .nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul .nav-list li {
+  margin-right: 10px;
+}
+
+.nav ul .nav-list li a {
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul .nav-list li a:hover {
+  text-decoration: underline;
+}
+
+.notification-picture {
+  width: 24px;
+  height: 64px;
+  margin-right: 110px;
+}
+
+.profile-picture {
+  width: 64px;
+  height: 64px;
+  margin-right: 190px; /* Increased margin for more space */
+  margin-top: 40px;
+}
