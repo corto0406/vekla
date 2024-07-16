@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+  
+.help-center {
+    background-color: #FDECD8;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 237px; /* Set the specified width */
+    height: 271px; /* Set the specified height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    position: relative; /* Ensure positioning context */
+}
+  
+.ellipse-container {
+    position: absolute;
+    top: -11px; /* Adjust top position of ellipse */
+    left: 50%;
+    transform: translateX(-50%); /* Center the ellipse horizontally */
+    width: 100px; /* Adjust container width as needed */
+    height: 100px; /* Adjust container height as needed */
+    display: flex;
+    justify-content: center; /* Center both images horizontally */
+    align-items: center; /* Align items at the top */
+    overflow: hidden; /* Clip the contents inside */
+}
+  
+.ellipse-image {
+    width: 100%; /* Make ellipse image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Create a circular clipping effect */
+}
+  
+.head-image {
+    position: absolute;
+    top: 50%; /* Adjust top position of head image */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the head image within the ellipse */
+    width: 50px; /* Adjust head image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2; /* Ensure head is in front */
+}
+  
+.help-center-content {
+    width: 100%; /* Ensure content takes full width */
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Add space above content */
+}
+  
+.help-center-title {
+    font-size: 25px;
+    font-weight: 600; /* Use numeric value for font weight */
+    color: #19342F;
+    margin-top: 35px; /* Increased space above title */
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.help-center-description {
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: -10px; /* Space below description */
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 0; /* Ensures no extra space between lines */
+    font-weight: 500px;
+}
+
+  
+.help-center-buttons {
+    display: flex; /* Use flexbox for button alignment */
+    justify-content: center; /* Center buttons horizontally */
+    width: 100%; /* Ensure buttons take full width */
+    margin-top: auto; /* Push buttons to the bottom */
+}
+  
+.help-center-button {
+    background-color: #19342F; /* Button color */
+    color: #ffffff;
+    border: none;
+    width: 153px; /* Button width */
+    height: 42px; /* Button height */
+    cursor: pointer;
+    border-radius: 30px; /* Button border radius */
+    font-size: 13px;
+    font-weight: 600; /* Corrected syntax for font weight */
+    font-family: 'Lexend Deca', sans-serif;
+    outline: none;
+    margin-top: 20px; /* Space above the button */
+}
+  
