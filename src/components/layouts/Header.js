@@ -2,7 +2,8 @@ import React from 'react';
 import './Header.css';
 import notificationIcon from '../notification/notification.svg';
 import profileIcon from '../profile/profile.png';
-import Button from '../profile/Button'; // Adjust path as needed
+import Button from '../profile/Button';
+import dropMenu from '../profile/dropMenu.svg';
 
 function Header() {
     return (
@@ -19,8 +20,12 @@ function Header() {
                         </a>
                         <div className="button-container">
                             <Button User="User" />
-                            <div className="button-info">Sana Alex</div>
+                            <div className="name-info">Sana Alex</div>
+                            <div className="email-info">sana@gmail.com</div>
                         </div>
+                        <a href="/profile">
+                            <img src={dropMenu} alt="Drop Menu" className="dropMenu-picture" />
+                        </a>
                     </li>
                 </ul>
             </nav>

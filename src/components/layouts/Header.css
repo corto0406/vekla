@@ -21,7 +21,7 @@
     font-family: 'Lexend Deca', sans-serif; /* Use Lexend Deca font */
     margin-left: 40px;
     height: 24px;
-  }
+}
 
 .nav {
   display: flex;
@@ -57,14 +57,22 @@
 }
 
 .notification-picture {
-  width: 24px;
-  height: 64px;
-  margin-right: 110px;
-}
+    width: 22px;
+    height: 25px;
+    margin-right: 70px;
+    margin-top: -30px; /* Move the notification picture up */
+  }
 
 .profile-picture {
   width: 64px;
   height: 64px;
-  margin-right: 80px; /* Increased margin for more space */
-  margin-top: 40px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
+
+.dropMenu-picture {
+    width: 17px;
+    height: 10px;
+    margin-top: 2px; /* Adjust to align vertically with .name-info */
+    margin-left: 20px; /* Adjust left margin as needed */
+  }

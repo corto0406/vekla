@@ -1,38 +1,49 @@
 .button-container {
-    position: relative; /* Position relative to contain the absolute positioning of button and text */
-    display: inline-block; /* Inline block to keep the elements together */
-    margin-right: 20px; /* Optional: Add margin to separate from other elements */
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .button {
-    width: 46px; /* Match the width of the profile picture */
-    height: 18px; /* Match the height of the profile picture */
-    background-color: #FFF9F1; /* Background color */
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    width: 46px;
+    height: 18px;
+    background-color: #FFF9F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    border: none; /* Remove default button border */
-    outline: none; /* Remove default focus outline */
-    border-radius: 50%; /* Make the button round */
-    position: relative; /* Position relative within the container */
-    z-index: 1; /* Place the button above other elements */
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    top: 10px; /* Adjust this value to move the button down */
 }
+
+
 
 .button-text {
-    color: #19342F; /* Text color */
-    font-size: 10px; /* Font size */
-    font-weight: normal; /* Font weight */
-    font-family: 'Lexend Deca', sans-serif; /* Font family */
-    
+    color: #19342F;
+    font-size: 10px;
+    font-weight: normal;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.button-info {
-    color: #222222; /* Text color */
-    font-size: 20px; /* Font size */
-    font-weight: 500; /* Font weight */
-    font-family: 'Lexend Deca', sans-serif; /* Font family */
-    margin-top: 2px; /* Space between button and info text */
-    text-align: center; /* Center text */
-    margin-right: 70px;
+.name-info {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.email-info {
+    color: #747474;
+    font-size: 10px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 82px;
+    height: 13px;
+    text-align: center;
 }
