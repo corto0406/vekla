@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px; /* Smaller height for the header */
-  width: calc(100% - 250px); /* Adjust width to account for sidebar */
+  width: calc(100% - 151px); /* Adjust width to account for sidebar */
   position: fixed;
   top: 0;
   right: 0;
@@ -19,8 +19,10 @@
     font-size: 40px; /* Use 40px font size */
     font-weight: 500; /* Medium weight */
     font-family: 'Lexend Deca', sans-serif; /* Use Lexend Deca font */
-    margin-left: 150px;
+    margin-left: 300px;
     height: 24px;
+    margin-top: 50px;
+   
 }
 
 .nav {
@@ -52,9 +54,6 @@
   align-items: center;
 }
 
-.nav ul .nav-list li a:hover {
-  text-decoration: underline;
-}
 
 .notification-picture {
     width: 22px;

@@ -10,38 +10,48 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Space between elements */
+  align-items: center; /* Center horizontally */
 }
 
 .logo-container {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 30px; /* Adjust margin top to move logo down */
 }
 
 .logo {
-  background-color: #E0F4E5;
-  max-width: 100%;
-  height: auto;
+  width: 162px;
+  height: 43px;
 }
 
 .category-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  flex-grow: 1; /* Grow to take up remaining space */
+  margin: 30px 0; /* Adjust margin to create space */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items from the start */
+  align-items: flex-start; /* Align items from the start */
+  font-family: 'Lexend Deca', sans-serif;
+  position: relative; /* Add relative positioning */
+  top: -70px; /* Adjust position relative to its normal position */
+  margin-top: 30px;
 }
 
 .category-list li {
-  margin-bottom: 10px;
+  margin-bottom: 15px; /* Add margin between category items */
+  display: flex; /* Ensure link text and icon are aligned */
+  align-items: center; /* Center items vertically */
 }
 
 .category-list li a {
-  color: #333;
+  color: #19342F; /* Set link color to #19342F */
   text-decoration: none;
+  font-size: 20px;
+  font-weight: normal; /* Assuming regular is the default weight */
+  display: inline-flex; /* Use inline-flex to ensure inline display */
+  align-items: center; /* Center items vertically */
 }
 
-.category-list li a:hover {
-  text-decoration: underline;
-}
 
 .help {
   display: flex;
@@ -50,3 +60,65 @@
   align-items: center; /* Center content horizontally */
   margin-bottom: 60px; /* Adjusted margin to move .help more up */
 }
+
+/* Icon styles */
+.dashboard-picture {
+  width: 20px; /* Set the width of the icon */
+  height: 21px; /* Set the height of the icon */
+  fill: #19342F; /* Set the color of the icon */
+  margin-right: 50px; /* Adjust spacing to the right of the icon */
+  margin-top: 30px;
+}
+
+.dashboard-picture:hover {
+  fill: #FFFFFF; /* Change the color to white on hover */
+}
+
+.mySkills-picture {
+  width: 23px; /* Set the width of the mySkills icon */
+  height: 23px; /* Set the height of the mySkills icon */
+  fill: #19342F; /* Set the color of the mySkills icon */
+  margin-right: 50px; /* Adjust spacing to the right of the icon */
+  margin-top: 30px;
+}
+
+.mySkills-picture:hover {
+  fill: #FFFFFF; /* Change the color to white on hover */
+}
+
+.myTraining-picture {
+  width: 27px;
+  height: 21px;
+  fill: #19342F; /* Icon color */
+  margin-right: 45px; /* Adjust spacing to the right of the icon */
+  margin-top: 30px;
+}
+
+.myTraining-picture:hover {
+  fill: #FFFFFF; /* Icon color on hover */
+}
+
+.knowledgeHub-picture {
+  width: 22px;
+  height: 22px;
+  fill: #19342F; /* Icon color */
+  margin-right: 50px; /* Adjust spacing to the right of the icon */
+  margin-top: 30px;
+}
+
+.knowledgeHub-picture:hover {
+  fill: #FFFFFF; /* Icon color on hover */
+}
+
+.growthPlan-picture {
+  width: 20px;
+  height: 21px;
+  fill: #19342F; /* Icon color */
+  margin-right: 53px; /* Adjust spacing to the right of the icon */
+  margin-top: 30px;
+}
+
+.growthPlan-picture:hover {
+  fill: #FFFFFF; /* Icon color on hover */
+}
+
