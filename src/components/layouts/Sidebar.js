@@ -7,6 +7,7 @@ import mySkills from '../icons/mySkills.svg';
 import myTraining from '../icons/myTraining.svg';
 import knowledgeHub from '../icons/knowledgeHub.svg';
 import growthPlan from '../icons/growthPlan.svg';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function Sidebar() {
   return (
@@ -16,34 +17,34 @@ function Sidebar() {
       </div>
       <ul className="category-list">
         <li>
-          <a href="/dashboard">
+          <Link to="/">
             <img src={dashboard} alt="Dashboard Icon" className="dashboard-picture" />
             Dashboard
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/mySkills">
+          <Link to="/my-skills">
             <img src={mySkills} alt="My Skills Icon" className="mySkills-picture" />
             My Skills
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/myTraining">
+          <Link to="/my-training">
             <img src={myTraining} alt="My Training Icon" className="myTraining-picture" />
             My Training
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/knowledgeHub">
+          <Link to="/knowledge-hub">
             <img src={knowledgeHub} alt="Knowledge Hub Icon" className="knowledgeHub-picture" />
             Knowledge Hub
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/growthPlan">
+          <Link to="/growth-plan">
             <img src={growthPlan} alt="Growth Plan Icon" className="growthPlan-picture" />
             Growth Plan
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="help">
