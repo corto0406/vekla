@@ -12,6 +12,7 @@ const pageTitles = {
     '/my-skills': 'My Skills',
     '/growth-plan': 'Growth Plan',
     '/knowledge-hub': 'Knowledge Hub',
+    '/contact-us': 'Contact Us',
 };
 
 function Header() {

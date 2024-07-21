@@ -59,19 +59,19 @@
     width: 22px;
     height: 25px;
     margin-right: 70px;
-    margin-bottom: 20px; /* Move the notification picture up */
+    margin-bottom: 15px; /* Move the notification picture up */
   }
 
 .profile-picture {
   width: 64px;
   height: 64px;
   margin-right: 10px;
-  margin-top: 20px;
+  margin-top: 90px;
 }
 
 .dropMenu-picture {
     width: 17px;
     height: 10px;
     margin-bottom: 20px; /* Adjust to align vertically with .name-info */
-    margin-left: 20px; /* Adjust left margin as needed */
+    margin-right: 60px; /* Adjust left margin as needed */
   }

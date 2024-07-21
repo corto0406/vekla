@@ -72,10 +72,9 @@ html, body {
     margin-top: -10px; /* Space below description */
     font-family: 'Lexend Deca', sans-serif;
     line-height: 0; /* Ensures no extra space between lines */
-    font-weight: 500px;
+    font-weight: 500; /* Corrected font-weight syntax */
 }
 
-  
 .help-center-buttons {
     display: flex; /* Use flexbox for button alignment */
     justify-content: center; /* Center buttons horizontally */
@@ -95,6 +94,13 @@ html, body {
     font-weight: 600; /* Corrected syntax for font weight */
     font-family: 'Lexend Deca', sans-serif;
     outline: none;
-    margin-top: 20px; /* Space above the button */
+    margin-top: 40px; /* Space above the button */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center; /* Ensure text is centered */
 }
-  
+
+.help-center-button::after {
+    content: ""; /* Remove underline effect if any */
+}

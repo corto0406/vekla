@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './HelpCenter.css'; // Import CSS file for styling
 import ellipse from '../helpCenter/ellipse.png';
 import head from '../helpCenter/head.png';
@@ -19,7 +20,9 @@ const HelpCenter = () => {
                 </div>
 
                 <div className="help-center-buttons">
-                    <button className="help-center-button">Contact Us</button>
+                    <Link to="/contact-us" className="help-center-button">
+                        Contact Us
+                    </Link>
                 </div>
             </div>
         </div>
