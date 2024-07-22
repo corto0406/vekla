@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
 
+/* Overall layout adjustment */
 .contact-us {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 80px auto 20px; /* Center horizontally, add top margin to push it down, and bottom margin for spacing */
     padding: 20px;
-    background-color: #FDECD8;
-    border-radius: 30px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #DEDEDE; /* Light grey background */
+    border-radius: 8px; /* Less rounded corners for a modern look */
+    box-shadow: none; /* Remove shadow for a flat design */
 }
 
+/* Header style */
 .contact-us h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #19342F; /* Dark color for better visibility */
 }
 
+/* Form groups */
 .form-group {
     width: 100%;
     margin-bottom: 20px;
@@ -26,6 +30,9 @@
 .form-group label {
     display: block;
     margin-bottom: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px; /* Adjusted font size for readability */
+    color: #19342F; /* Dark color for label text */
 }
 
 .form-group input,
@@ -34,8 +41,11 @@
     padding: 10px;
     border: 1px solid #e0e0e0;
     border-radius: 5px;
+    font-size: 16px; /* Font size for better readability */
+    font-family: 'Lexend Deca', sans-serif;
 }
 
+/* Button styles */
 button {
     cursor: pointer;
     border: none;
@@ -83,7 +93,7 @@ button {
 
     .form-group input,
     .form-group textarea {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .submit-button,
@@ -95,6 +105,7 @@ button {
 @media (max-width: 480px) {
     .contact-us {
         width: 95%;
+        margin: 60px auto 20px; /* Adjust top margin for smaller screens */
     }
 
     .contact-us h1 {

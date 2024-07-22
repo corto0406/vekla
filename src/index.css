@@ -1,5 +1,8 @@
-body {
+/* Apply smoke white background to the entire page */
+html, body {
+  height: 100%;
   margin: 0;
+  background-color:  #DEDEDE; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +10,74 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Code block styling */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Header styling */
+.header {
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: calc(100% - 375px); /* Adjust width to account for sidebar */
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  z-index: 1000; /* Ensure header stays on top */
+}
+
+/* Ensure the main content is positioned correctly */
+.main {
+  margin-top: 150px; /* Ensure content is pushed down below the header */
+  padding: 20px;
+  min-height: calc(100vh - 150px); /* Ensure content fills the viewport height minus the header height */
+  box-sizing: border-box;
+
+  /* Center content horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center text within the main content */
+.main .center-text {
+  text-align: center; /* Center text horizontally */
+  font-size: 24px; /* Adjust font size as needed */
+  color: #19342F; /* Adjust text color as needed */
+}
+
+/* Responsive styles */
+
+/* For tablets and larger mobile devices (768px and up) */
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 300px); /* Adjust header width for smaller screens */
+  }
+
+  .main {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+}
+
+/* For mobile devices (480px and up) */
+@media (max-width: 480px) {
+  .header {
+    width: 100%; /* Make header full width */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .main {
+    padding: 10px; /* Reduce padding for mobile */
+  }
+  
+  /* Additional adjustments for very small screens */
+  .header, .main {
+    box-sizing: border-box; /* Ensure proper box-sizing for all elements */
+  }
 }

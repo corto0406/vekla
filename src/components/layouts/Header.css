@@ -19,9 +19,9 @@
     font-size: 40px; /* Use 40px font size */
     font-weight: 500; /* Medium weight */
     font-family: 'Lexend Deca', sans-serif; /* Use Lexend Deca font */
-    margin-left: 300px;
+    margin-left: 150px;
     height: 24px;
-    margin-top: 50px;
+    margin-top: -40px;
    
 }
 
@@ -59,14 +59,14 @@
     width: 22px;
     height: 25px;
     margin-right: 70px;
-    margin-bottom: 15px; /* Move the notification picture up */
+    margin-bottom: 20px; /* Move the notification picture up */
   }
 
 .profile-picture {
   width: 64px;
   height: 64px;
   margin-right: 10px;
-  margin-top: 90px;
+  margin-bottom: 0px;
 }
 
 .dropMenu-picture {
