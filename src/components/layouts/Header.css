@@ -22,7 +22,6 @@
     margin-left: 150px;
     height: 24px;
     margin-top: -40px;
-   
 }
 
 .nav {
@@ -54,13 +53,12 @@
   align-items: center;
 }
 
-
 .notification-picture {
-    width: 22px;
-    height: 25px;
-    margin-right: 70px;
-    margin-bottom: 20px; /* Move the notification picture up */
-  }
+  width: 22px;
+  height: 25px;
+  margin-right: 70px;
+  margin-bottom: 20px; /* Move the notification picture up */
+}
 
 .profile-picture {
   width: 64px;
@@ -70,8 +68,62 @@
 }
 
 .dropMenu-picture {
-    width: 17px;
-    height: 10px;
-    margin-bottom: 20px; /* Adjust to align vertically with .name-info */
-    margin-right: 60px; /* Adjust left margin as needed */
+  width: 17px;
+  height: 10px;
+  margin-bottom: 20px; /* Adjust to align vertically with .name-info */
+  margin-right: 60px; /* Adjust left margin as needed */
+}
+
+/* Responsive styles */
+
+/* For tablets and larger mobile devices (768px and up) */
+@media (max-width: 768px) {
+  .header {
+    width: calc(100% - 100px); /* Adjust header width for smaller screens */
   }
+
+  .topic {
+    font-size: 30px; /* Reduce font size for smaller screens */
+    margin-left: 100px; /* Adjust margin for smaller screens */
+  }
+
+  .notification-picture {
+    margin-right: 50px; /* Adjust margin for smaller screens */
+  }
+
+  .profile-picture {
+    width: 50px; /* Reduce size for smaller screens */
+    height: 50px;
+  }
+
+  .dropMenu-picture {
+    margin-right: 40px; /* Adjust margin for smaller screens */
+  }
+}
+
+/* For mobile devices (480px and up) */
+@media (max-width: 480px) {
+  .header {
+    width: 100%; /* Make header full width */
+    padding: 10px; /* Adjust padding for mobile */
+    height: 50px; /* Reduce header height for mobile */
+  }
+
+  .topic {
+    font-size: 20px; /* Reduce font size for mobile */
+    margin-left: 50px; /* Adjust margin for mobile */
+  }
+
+  .notification-picture {
+    margin-right: 30px; /* Adjust margin for mobile */
+  }
+
+  .profile-picture {
+    width: 40px; /* Reduce size for mobile */
+    height: 40px;
+  }
+
+  .dropMenu-picture {
+    margin-right: 20px; /* Adjust margin for mobile */
+  }
+}

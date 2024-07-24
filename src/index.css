@@ -62,6 +62,7 @@ code {
 
   .main {
     padding: 15px; /* Reduce padding for smaller screens */
+    margin-top: 100px; /* Adjust margin-top for smaller screens */
   }
 }
 
@@ -70,10 +71,16 @@ code {
   .header {
     width: 100%; /* Make header full width */
     padding: 10px; /* Adjust padding for mobile */
+    height: 100px; /* Reduce header height for mobile */
   }
 
   .main {
     padding: 10px; /* Reduce padding for mobile */
+    margin-top: 100px; /* Adjust margin-top for mobile */
+  }
+  
+  .main .center-text {
+    font-size: 18px; /* Reduce font size for mobile */
   }
   
   /* Additional adjustments for very small screens */
