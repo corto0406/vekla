@@ -4,9 +4,9 @@ import './HelpCenter.css'; // Import CSS file for styling
 import ellipse from '../helpCenter/ellipse.png';
 import head from '../helpCenter/head.png';
 
-const HelpCenter = () => {
+const HelpCenter = ({ onClick }) => {
     return (
-        <div className="help-center">
+        <div className="help-center" onClick={onClick}>
             <div className="ellipse-container">
                 <img src={ellipse} alt="Ellipse" className="ellipse-image" />
                 <img src={head} alt="Head" className="head-image" />
@@ -18,7 +18,6 @@ const HelpCenter = () => {
                     <p>Please contact us for more</p>
                     <p>questions</p>
                 </div>
-
                 <div className="help-center-buttons">
                     <Link to="/contact-us" className="help-center-button">
                         Contact Us

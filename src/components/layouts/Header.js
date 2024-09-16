@@ -15,13 +15,18 @@ const pageTitles = {
     '/contact-us': 'Contact Us',
 };
 
-function Header() {
+function Header({ toggleSidebar }) {
     const location = useLocation();
     const currentPath = location.pathname;
     const title = pageTitles[currentPath] || 'Dashboard'; // Default to Dashboard if path is not found
 
     return (
         <header className="header">
+            <div className="hamburger-menu" onClick={toggleSidebar}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div className="topic">{title}</div>
             <nav className="nav">
                 <ul className="nav-list">
