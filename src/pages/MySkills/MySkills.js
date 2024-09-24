@@ -167,7 +167,7 @@ const MySkills = () => {
         <h3>Structure</h3>
         <div className="chart-container1">
           <Doughnut
-            data={chartData5}
+            data={chartData3}
             plugins={[centerTextPlugin(2)]} // Number for the third donut
             options={{
               cutout: '65%',
