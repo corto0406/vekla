@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+.growth-container {
+  position: relative;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.growth-text1 h1 {
+    font-size: 30px;          /* Set the font size to 30px */
+    font-weight: 600;         /* Semi-bold */
+    color: #19342F;           /* Color: #19342F */
+    font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+    top: 148px;
+    left: -640px;
+    position: absolute;
+}
+
+.growth-text1 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 210px;
+    left: -640px;
+}
+
+.growth-text2 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 240px;
+    left: -640px;
+}
+
+.growth-text1 p {
+    top: 207px;
+    left: -580px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #8F8F8F;
+    position: absolute;
+ 
+}
+
+.growth-text2 p {
+    top: 237px;
+    left: -573px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #8F8F8F;
+    position: absolute;
+ 
+}
+
+
+.growth-text3 h1 {
+    font-size: 30px;          /* Set the font size to 30px */
+    font-weight: 600;         /* Semi-bold */
+    color: #19342F;           /* Color: #19342F */
+    font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+    top: 148px;
+    right: -560px;
+    position: absolute;
+}
+
+.growth-text3 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 210px;
+    right: -590px;
+
+}   
+
+.growth-text4 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 240px;
+    right: -586px;
+}
+
+.growth-text3 p {
+    top: 207px;
+    right: -1040px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #8F8F8F;
+    position: absolute;
+ 
+}
+
+.growth-text4 p {
+    top: 237px;
+    right: -790px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 400; 
+    color: #8F8F8F;
+    position: absolute;
+ 
+}
+
+.growth-text5 h1 {
+    font-size: 30px;          /* Set the font size to 30px */
+    font-weight: 600;         /* Semi-bold */
+    color: #19342F;           /* Color: #19342F */
+    font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+    top: 330px;
+    left: -640px;
+    position: absolute;
+
+}
+
+.growth-box1 {
+    top: 400px;
+    left: -640px;
+    width: 364px;
+    height: 274px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+}
+
+.growth-box2 {
+    top: 400px;
+    left: -100px;
+    width: 364px;
+    height: 274px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+}
+
+.growth-box3 {
+    top: 400px;
+    left: 450px;
+    width: 364px;
+    height: 274px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+}
+
+.growth-box1 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 15px;
+    right: 180px;
+}
+
+.growth-box2 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 15px;
+    right: 230px;
+}
+
+.growth-box3 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 600; /* Semi-bold */
+    color: #19342F;
+    position: absolute;
+    top: 15px;
+    right: 220px;
+}
+
+.growth-box4 {
+    top: 700px;
+    left: -640px;
+    width: 650px;
+    height: 301px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+}
+
+
+.growth-box5 {
+    top: 700px;
+    left: 160px;
+    width: 800px;
+    height: 301px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+}
+
+
+
+.growth-box1 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 25px;
+    top: 100px;
+     
+}
+
+.growth-box1 p::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 14px; /* Adjust the checkmark size */
+    color: white; /* Color of the checkmark */
+    background-color:#F6A3B6; /* Background color of the circle */
+    border-radius: 50%; /* Make the background a circle */
+    width: 18px; /* Set circle width */
+    height: 18px; /* Set circle height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between circle and text */
+  }
+
+.growth-box2 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 25px;
+    top: 100px;
+     
+} 
+
+.growth-box2 p::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 14px; /* Adjust the checkmark size */
+    color: white; /* Color of the checkmark */
+    background-color:#F6A3B6; /* Background color of the circle */
+    border-radius: 50%; /* Make the background a circle */
+    width: 18px; /* Set circle width */
+    height: 18px; /* Set circle height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between circle and text */
+}
+
+.growth-box3 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 25px;
+    top: 100px;
+     
+} 
+
+.growth-box3 p::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 14px; /* Adjust the checkmark size */
+    color: white; /* Color of the checkmark */
+    background-color:#F6A3B6; /* Background color of the circle */
+    border-radius: 50%; /* Make the background a circle */
+    width: 18px; /* Set circle width */
+    height: 18px; /* Set circle height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between circle and text */
+}
+
+
+.growth-box4 h3 {
+    font-weight: 600;   /* Semi-bold font weight */
+    font-size: 25px;    /* Font size of 20px */
+    color: #19342F;     /* Dark green color */
+    font-family: 'Lexend Deca', sans-serif; /* Use the Lexend Deca font */
+    margin-bottom: 20px; /* Optional: adjust spacing below the heading */
+    top: 0px;
+    left: 50px;
+    position: absolute;
+}
+
+.growth-box4 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 50px;
+    top: 70px;
+}
+
+.growth-box4 p::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 14px; /* Adjust the checkmark size */
+    color: white; /* Color of the checkmark */
+    background-color:#F6A3B6; /* Background color of the circle */
+    border-radius: 50%; /* Make the background a circle */
+    width: 18px; /* Set circle width */
+    height: 18px; /* Set circle height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between circle and text */
+}
+
+.growth-box5 h3 {
+    font-weight: 600;   /* Semi-bold font weight */
+    font-size: 25px;    /* Font size of 20px */
+    color: #19342F;     /* Dark green color */
+    font-family: 'Lexend Deca', sans-serif; /* Use the Lexend Deca font */
+    margin-bottom: 20px; /* Optional: adjust spacing below the heading */
+    top: 0px;
+    left: 50px;
+    position: absolute;
+
+}
+
+.growth-box6 {
+    top: 770px;
+    left: -280px;
+    width: 266px;
+    height: 201px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Small shadow */
+}
+
+
+.growth-box6 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 15px;
+    top: 0px;
+    line-height: 1.8;
+}
+
+.button6 {
+    width: 43px;
+    height: 16px;
+    background-color: #FDECD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 20px; /* Adjust this value to move the button down */
+    left: 190px;
+
+}
+
+
+
+.button6-text {
+    color: #222222;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+}
+
+.button7 {
+    width: 43px;
+    height: 16px;
+    background-color: #97DDA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 58px; /* Adjust this value to move the button down */
+    left: 190px;
+
+}
+
+
+
+.button7-text {
+    color: #222222;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+}
+
+.button8 {
+    width: 43px;
+    height: 16px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 95px; /* Adjust this value to move the button down */
+    left: 190px;
+
+}
+
+
+
+.button8-text {
+    color: #222222;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+}
+
+.button9 {
+    width: 43px;
+    height: 16px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 135px; /* Adjust this value to move the button down */
+    left: 190px;
+
+}
+
+
+
+.button9-text {
+    color: #222222;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+}
+
+.button10 {
+    width: 43px;
+    height: 16px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    position: absolute;
+    z-index: 1;
+    top: 173px; /* Adjust this value to move the button down */
+    left: 190px;
+
+}
+
+
+
+.button10-text {
+    color: #222222;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+}
+
+.growth-box5 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 50px;
+    top: 38px;
+}
+.growth-box5 h4 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: medium; 
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 50px;
+    top: 45px;
+}
+
+.growth-box5 p::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    font-size: 14px; /* Adjust the checkmark size */
+    color: white; /* Color of the checkmark */
+    background-color:#F6A3B6; /* Background color of the circle */
+    border-radius: 50%; /* Make the background a circle */
+    width: 18px; /* Set circle width */
+    height: 18px; /* Set circle height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between circle and text */
+}
+
+.growth-box5 h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: medium; 
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 50px;
+    top: 35px;
+}
+.growth-box5 p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300; /* Light font weight */
+    color: #222222;   
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    position: relative;
+    margin-left: 50px;
+    top: 38px;
+}
+
+
+.growth-picture {
+    display: flex;
+    position: absolute;
+    left: 450px;
+    margin-top: -220px;
+
+}
+
+
+    
+
+
+
+
+
+
+
+
