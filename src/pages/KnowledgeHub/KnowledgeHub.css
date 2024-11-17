@@ -1,0 +1,439 @@
+.knowledge-container {
+  position: relative;
+  height: 100vh; /* Ensure it fills the viewport */
+  background-color: #f0f0f0;
+}
+
+.knowledge-text1 h1 {
+  font-size: 25px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 160px;
+  left: -640px;
+  position: absolute;
+}
+
+.knowledge1-button {
+  width: 144px;            /* Set the width to 144px */
+  height: 38px;            /* Set the height to 38px */
+  background-color: #FFFFFF; /* Button background color: #FFFFFF */
+  color: #AEAEAE;          /* Text color: #ABABAB */
+  border: 1px solid #ABABAB; /* Optional: Add border matching text color */
+  border-radius: 18px;      /* Optional: Add some rounding to the corners */
+  font-size: 12px;         /* Adjust the font size */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  display: flex;           /* Use flex to center text */
+  align-items: center;     /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  position: absolute;
+  top: 220px;
+  left: -640px;
+  padding-right: 40px;
+}
+
+.knowledge1-button:hover {
+  background-color: #19342F;  /* Change background on hover */
+  color: #FFFFFF;             /* Change text color on hover */
+}
+
+.knowledge2-button {
+  width: 144px;            /* Set the width to 144px */
+  height: 38px;            /* Set the height to 38px */
+  background-color: #FFFFFF; /* Button background color: #FFFFFF */
+  color: #AEAEAE;          /* Text color: #ABABAB */
+  border: 1px solid #ABABAB; /* Optional: Add border matching text color */
+  border-radius: 18px;      /* Optional: Add some rounding to the corners */
+  font-size: 12px;         /* Adjust the font size */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  display: flex;           /* Use flex to center text */
+  align-items: center;     /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  position: absolute;
+  top: 220px;
+  right: 330px;
+  padding-right: 40px;
+}
+
+.knowledge2-button:hover {
+  background-color: #19342F;  /* Change background on hover */
+  color: #FFFFFF;             /* Change text color on hover */
+}
+
+.knowledge3-button {
+  width: 127px;            /* Set the width to 144px */
+  height: 38px;            /* Set the height to 38px */
+  background-color: #FFFFFF; /* Button background color: #FFFFFF */
+  color: #AEAEAE;          /* Text color: #ABABAB */
+  border: 1px solid #ABABAB; /* Optional: Add border matching text color */
+  border-radius: 18px;      /* Optional: Add some rounding to the corners */
+  font-size: 12px;         /* Adjust the font size */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  display: flex;           /* Use flex to center text */
+  align-items: center;     /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  position: absolute;
+  top: 220px;
+  right: 180px;
+  padding-right: 40px;
+}
+
+.knowledge3-button:hover {
+  background-color: #19342F;  /* Change background on hover */
+  color: #FFFFFF;             /* Change text color on hover */
+}
+
+.knowledge4-button {
+  width: 137px;            /* Set the width to 144px */
+  height: 38px;            /* Set the height to 38px */
+  background-color: #FFFFFF; /* Button background color: #FFFFFF */
+  color: #AEAEAE;          /* Text color: #ABABAB */
+  border: 1px solid #ABABAB; /* Optional: Add border matching text color */
+  border-radius: 18px;      /* Optional: Add some rounding to the corners */
+  font-size: 12px;         /* Adjust the font size */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  display: flex;           /* Use flex to center text */
+  align-items: center;     /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  position: absolute;
+  top: 220px;
+  right: 20px;
+  padding-right: 40px;
+}
+
+.knowledge4-button:hover {
+  background-color: #19342F;  /* Change background on hover */
+  color: #FFFFFF;             /* Change text color on hover */
+}
+
+
+.knowledge5-button {
+  width: 164px;            /* Set the width to 144px */
+  height: 38px;            /* Set the height to 38px */
+  background-color: #FFFFFF; /* Button background color: #FFFFFF */
+  color: #AEAEAE;          /* Text color: #ABABAB */
+  border: 1px solid #ABABAB; /* Optional: Add border matching text color */
+  border-radius: 18px;      /* Optional: Add some rounding to the corners */
+  font-size: 12px;         /* Adjust the font size */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  display: flex;           /* Use flex to center text */
+  align-items: center;     /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  cursor: pointer;        /* Change cursor to pointer on hover */
+  position: absolute;
+  top: 220px;
+  right: -170px;
+  padding-right: 40px;
+}
+
+.knowledge5-button:hover {
+  background-color: #19342F;  /* Change background on hover */
+  color: #FFFFFF;             /* Change text color on hover */
+}
+
+.drop-picture5 {
+  width: 11px;  /* Adjust the size of the arrow icon */
+  height: 6;
+  position: absolute;
+  top: 237px;
+  right: -140px;
+
+}
+
+.drop-picture5:hover {
+  color: #FFFFFF; 
+}
+
+.drop-picture4 {
+  width: 11px;  /* Adjust the size of the arrow icon */
+  height: 6;
+  position: absolute;
+  top: 237px;
+  right: 50px;
+}
+
+.drop-picture4:hover {
+  color: #FFFFFF;
+}
+
+.drop-picture3 {
+  width: 11px;  /* Adjust the size of the arrow icon */
+  height: 6;
+  position: absolute;
+  top: 237px;
+  right: 210px;
+}
+
+.drop-picture3:hover {
+  filter: brightness(0) invert(1);
+}
+
+.drop-picture2 {
+  width: 11px;  /* Adjust the size of the arrow icon */
+  height: 6;
+  position: absolute;
+  top: 237px;
+  right: 360px;
+}
+
+.drop-picture2:hover {
+  filter: brightness(0) invert(1);
+}
+
+.drop-picture1 {
+  width: 11px;  /* Adjust the size of the arrow icon */
+  height: 6;
+  position: absolute;
+  top: 237px;
+  right: 525px;
+}
+
+.drop-picture1:hover {
+  filter: brightness(0) invert(1);
+}
+
+.knowledge-text2 h1 {
+  font-size: 25px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: -640px;
+  position: absolute;
+}
+
+.knowledge-box1 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 350px;
+  left: -640px;
+
+}
+
+.knowledge1-picture {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 90px;
+  
+}
+
+.knowledge-box2 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 350px;
+  left: -100px;
+
+}
+
+.knowledge-box3 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 350px;
+  left: 450px;
+
+}
+
+.knowledge2-picture {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  
+}
+
+.knowledge3-picture {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  
+}
+
+.knowledge-text3 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+
+}
+
+.knowledge-text4 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;      /* Keep the text in one line */
+}
+
+.knowledge-text5 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;      /* Keep the text in one line */
+}
+
+
+.star-rating {
+  display: flex;
+  gap: 3px; /* Adjust gap between stars */
+  font-size: 0; /* Remove default font sizing */
+  position: absolute;
+  top: 305px;
+  left: 350px;
+}
+
+.star {
+  width: 14.52px; /* Set width */
+  height: 13.81px; /* Set height */
+  display: inline-block;
+  background-color: white; /* Default color for empty stars */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); /* Star shape */
+  transition: background-color 0.2s ease;
+}
+
+.star.filled {
+  background-color: #FFD700; /* Gold color for filled stars */
+}
+
+.knowledge-text3 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+
+.knowledge-text4 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+.knowledge-text5 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+.knowledge6-button {
+    width: 111px;            /* Set the width to 144px */
+    height: 28px;            /* Set the height to 38px */
+    background-color: #19342F; /* Button background color: #FFFFFF */
+    border-radius: 18px;      /* Optional: Add some rounding to the corners */
+    font-size: 10px;
+    color: white;         
+    font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+    display: flex;           /* Use flex to center text */
+    align-items: center;     /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    
+}
+
+.heart {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 360px;
+  left: 150px;
+  background-color: #ffffff;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  transition: background-color 0.3s;
+}
+
+.heart::before {
+  top: -7.5px; /* Adjusted for a more balanced overlap */
+  left: 0;
+}
+
+.heart::after {
+  left: 7.5px; /* Centered to match the heart's rotation */
+  top: 0;
+}
+
+/* When selected, turn heart red */
+.heart.selected,
+.heart.selected::before,
+.heart.selected::after {
+  background-color: #ff0000;
+}
+
+.knowledge-text6 h1 {
+  font-size: 25px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  bottom: 150px;
+  left: -640px;
+  position: absolute;
+}
+
+.knowledge-box4 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 880px;
+  left: -640px;
+
+}
+
+.knowledge4-picture {
+  display: flex;
+  position: absolute;
+  bottom: -130px;
+  right: 300px;
+  
+}
