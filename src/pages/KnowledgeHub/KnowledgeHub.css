@@ -433,7 +433,129 @@
 .knowledge4-picture {
   display: flex;
   position: absolute;
-  bottom: -130px;
-  right: 300px;
+  bottom: 15px;
+  right: 100px;
   
 }
+
+.knowledge-box5 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 880px;
+  left: -100px;
+
+}
+
+.knowledge5-picture {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  right: 60px;
+  
+}
+
+.knowledge-box6 {
+  width: 399px;               /* Set the width */
+  height: 248px;              /* Set the height */
+  background-color: #FFFFFF;  /* Set the background color (optional) */
+  border-radius: 15px;        /* Curve the edges, adjust the value as needed */
+  padding: 20px;              /* Optional: add padding inside the box */
+  position: absolute;
+  top: 880px;
+  left: 450px;
+
+}
+
+.knowledge6-picture {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 100px;
+  
+}
+
+.knowledge-text6 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;      /* Keep the text in one line */
+
+}
+
+.knowledge-text6 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+
+.knowledge-text7 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;      /* Keep the text in one line */
+
+}
+
+.knowledge-text7 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+
+.knowledge-text8 h2 {
+  font-size: 20px;          
+  font-weight: 600;         /* Semi-bold */
+  color: #19342F;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 280px;
+  left: 0px;
+  position: absolute;
+  white-space: nowrap;      /* Keep the text in one line */
+
+}
+
+.knowledge-text8 p {
+  font-size: 12px;       
+  color: #ABABAB;           /* Color: #19342F */
+  font-family: 'Lexend Deca', sans-serif; /* Optional: specify the font family */
+  top: 310px;
+  left: 0px;
+  position: absolute;
+}
+
+/* Apply cursor pointer to the stars */
+.star-rating .star {
+  cursor: pointer;
+}
+
+/* Apply cursor pointer to the buttons */
+button {
+  cursor: pointer;
+}
+
+/* Apply cursor pointer to the heart icons */
+.heart {
+  cursor: pointer;
+}
+
+

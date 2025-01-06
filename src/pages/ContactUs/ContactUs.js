@@ -11,7 +11,7 @@ function ContactUs() {
 
   return (
     <div className="contact-us">
-      <h1>Contact Us</h1>
+      <h1>Fill in the form</h1>
       <form>
         <div className="form-group">
           <label htmlFor="name">Name:</label>

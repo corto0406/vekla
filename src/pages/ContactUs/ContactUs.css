@@ -6,19 +6,19 @@
     flex-direction: column;
     align-items: center;
     width: 90%;
-    max-width: 600px;
-    margin: 80px auto 20px; /* Center horizontally, add top margin to push it down, and bottom margin for spacing */
+    max-width: 800px; /* Increased max width for a wider form */
+    margin: 80px auto 20px; 
     padding: 20px;
-    background-color: #DEDEDE; /* Light grey background */
-    border-radius: 8px; /* Less rounded corners for a modern look */
-    box-shadow: none; /* Remove shadow for a flat design */
+    background-color: #DEDEDE; 
+    border-radius: 8px; 
+    box-shadow: none;
 }
 
 /* Header style */
 .contact-us h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #19342F; /* Dark color for better visibility */
+    color: #19342F; 
 }
 
 /* Form groups */
@@ -29,20 +29,30 @@
 
 .form-group label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px; /* Slightly larger spacing */
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 16px; /* Adjusted font size for readability */
-    color: #19342F; /* Dark color for label text */
+    font-size: 18px; 
+    color: #19342F; 
 }
 
+/* Input and textarea adjustments */
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 10px;
+    min-width: 400px; /* Ensures a minimum width */
+    min-height: 50px; /* Ensures a minimum height */
+    padding: 15px; /* Increases padding for larger input fields */
     border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    font-size: 16px; /* Font size for better readability */
+    border-radius: 8px; 
+    font-size: 18px; /* Larger text for better readability */
     font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Textarea-specific styling */
+.form-group textarea {
+    height: 150px; /* Taller height for message box */
+    resize: vertical; /* Allow user to resize vertically */
 }
 
 /* Button styles */
@@ -52,14 +62,14 @@ button {
     border-radius: 30px;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px; /* Larger font size */
 }
 
 .submit-button {
     background-color: #19342F;
     color: #ffffff;
     width: 100%;
-    height: 42px;
+    height: 50px; /* Taller button */
     margin-top: 20px;
 }
 
@@ -67,20 +77,20 @@ button {
     background-color: #e0e0e0;
     color: #19342F;
     width: 100%;
-    height: 42px;
+    height: 50px; /* Taller button */
     margin-top: 10px;
 }
 
 .button-group {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between buttons */
+    gap: 15px; /* Increased spacing between buttons */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .contact-us {
-        padding: 15px;
+        padding: 20px;
     }
 
     .contact-us h1 {
@@ -88,24 +98,28 @@ button {
     }
 
     .form-group label {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .form-group input,
     .form-group textarea {
-        font-size: 14px;
+        font-size: 16px;
+        min-width: 300px; /* Adjusted for smaller screens */
+        min-height: 45px;
+        padding: 12px;
     }
 
     .submit-button,
     .cancel-button {
-        font-size: 14px;
+        font-size: 16px;
+        height: 45px; /* Adjusted for smaller screens */
     }
 }
 
 @media (max-width: 480px) {
     .contact-us {
         width: 95%;
-        margin: 60px auto 20px; /* Adjust top margin for smaller screens */
+        margin: 60px auto 20px; 
     }
 
     .contact-us h1 {
@@ -113,17 +127,20 @@ button {
     }
 
     .form-group label {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .form-group input,
     .form-group textarea {
-        font-size: 12px;
+        font-size: 14px;
+        min-width: 260px; /* Further adjust width */
+        min-height: 40px;
+        padding: 10px;
     }
 
     .submit-button,
     .cancel-button {
-        font-size: 12px;
-        height: 38px;
+        font-size: 14px;
+        height: 40px; 
     }
 }

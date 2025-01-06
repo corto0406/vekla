@@ -5,6 +5,8 @@ import Knowledge1 from '../KnowledgeHub/knowledge1.png';
 import Knowledge2 from '../KnowledgeHub/knowledge2.png';
 import Knowledge3 from '../KnowledgeHub/knowledge3.png';
 import Knowledge4 from '../KnowledgeHub/knowledge4.png';
+import Knowledge5 from '../KnowledgeHub/knowledge5.png';
+import Knowledge6 from '../KnowledgeHub/knowledge6.png';
 
 const StarRating = ({ rating, setRating }) => {
   return (
@@ -26,10 +28,16 @@ const KnowledgeHub = () => {
   const [rating1, setRating1] = useState(0);
   const [rating2, setRating2] = useState(0);
   const [rating3, setRating3] = useState(0);
+  const [rating4, setRating4] = useState(0);
+  const [rating5, setRating5] = useState(0); 
+  const [rating6, setRating6] = useState(0); 
 
   const [isHeartSelected1, setHeartSelected1] = useState(false);
   const [isHeartSelected2, setHeartSelected2] = useState(false);
   const [isHeartSelected3, setHeartSelected3] = useState(false);
+  const [isHeartSelected4, setHeartSelected4] = useState(false); 
+  const [isHeartSelected5, setHeartSelected5] = useState(false);
+  const [isHeartSelected6, setHeartSelected6] = useState(false);
 
   const toggleHeart = (setHeartSelected, currentStatus) => {
     setHeartSelected(!currentStatus);
@@ -107,13 +115,55 @@ const KnowledgeHub = () => {
         </div>
         <StarRating rating={rating3} setRating={setRating3} />
       </div>
-      
+
       <div className="knowledge-text6">
-        <h1>All Courses</h1></div>
-        <div className="knowledge-box4"></div>
+        <h1>All Courses</h1>
+      </div>
+
+      <div className="knowledge-box4">
         <img src={Knowledge4} alt="KN4" className="knowledge4-picture" />
+        <div className="knowledge-text6">
+          <h2>Computer Operator</h2>
+          <p>Professional Course</p>
+          <button className="knowledge6-button">Enroll Now</button>
+          <div
+            className={`heart ${isHeartSelected4 ? 'selected' : ''}`}
+            onClick={() => toggleHeart(setHeartSelected4, isHeartSelected4)}
+          ></div>
+        </div>
+        <StarRating rating={rating4} setRating={setRating4} />
+      </div>
+
+      <div className="knowledge-box5">
+        <img src={Knowledge5} alt="KN5" className="knowledge5-picture" />
+        <div className="knowledge-text7">
+          <h2>Accounting & Book</h2>
+          <p>Professional Course</p>
+          <button className="knowledge6-button">Enroll Now</button>
+          <div
+            className={`heart ${isHeartSelected5 ? 'selected' : ''}`}
+            onClick={() => toggleHeart(setHeartSelected5, isHeartSelected5)}
+          ></div>
+        </div>
+        <StarRating rating={rating5} setRating={setRating5} />
+      </div>
+
+      <div className="knowledge-box6">
+        <img src={Knowledge6} alt="KN6" className="knowledge6-picture" />
+        <div className="knowledge-text8">
+          <h2>Event Management</h2>
+          <p>Professional Course</p>
+          <button className="knowledge6-button">Enroll Now</button>
+          <div
+            className={`heart ${isHeartSelected6 ? 'selected' : ''}`}
+            onClick={() => toggleHeart(setHeartSelected6, isHeartSelected6)}
+          ></div>
+        </div>
+        <StarRating rating={rating6} setRating={setRating6} />
+      </div>
     </div>
   );
 };
 
 export default KnowledgeHub;
+
